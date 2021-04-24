@@ -16,7 +16,9 @@ EDA code files
 ---------------
 
 EDA_basic.ipynb - Understanding the dataset
+
 EDA--wordcloud.ipynb - 
+
 EDA-User & Attractions.ipynb - 
 
 Review Text cleaning
@@ -40,12 +42,15 @@ good model prediction for ratings.
 ML Algorithms used:
 
 1. Logistic Regression 
+
 Logistic regression baseline.ipynb
 
 2. SVM
+
 SVM.ipynb
 
 3. Naive Bayes + BOW
+
 NB.ipynb
 
 Topic Modelling
@@ -53,6 +58,7 @@ Topic Modelling
 
 
 1. LDA using TFIDF vectorizer
+
 LDA_body_type.ipynb
 
 Recommender systems
@@ -62,5 +68,6 @@ Used cosine similarity based on the ratings for all attractions by profile to es
 Building Recommendation system on top of the above knowledge using Nearest neighbour algorithm.
 
 1. Cosine similarity + Nearest Neighbour Algorithm
+
 TA Rec system.ipynb
 
