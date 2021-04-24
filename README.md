@@ -17,9 +17,9 @@ EDA code files
 
 EDA_basic.ipynb - Understanding the dataset
 
-EDA--wordcloud.ipynb - 
+EDA--wordcloud.ipynb - Text mining and word cloud visualization.
 
-EDA-User & Attractions.ipynb - 
+EDA-User & Attractions.ipynb - Exploratory data analysis for different attractions and user profiles.
 
 Review Text cleaning
 --------------------
