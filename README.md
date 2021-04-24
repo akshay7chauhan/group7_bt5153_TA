@@ -16,26 +16,51 @@ EDA code files
 ---------------
 
 EDA_basic.ipynb - Understanding the dataset
-EDA--wordcloud.ipynb -
+EDA--wordcloud.ipynb - 
 EDA-User & Attractions.ipynb - 
+
+Review Text cleaning
+--------------------
+Building a data preprocessing pipeline to remove noise and improve future use of review text as input for Modelling.
+
+data_preprocessing.ipynb
+
+Sentiment Scoring
+------------------
+Using vader sentiment to assign sentiment score to the review body and review title. These serve as valuable features for the
+rating prediction and topic modeling excercise.
+
+Sentiment scoring.ipynb 
 
 Predicting Ratings
 ------------------
+To ensure that all the terms used in this analysis contributed to tourist sentiment and topic modelling it was essential to have a 
+good model prediction for ratings.
 
 ML Algorithms used:
 
-Logistic Regression
+1. Logistic Regression 
+Logistic regression baseline.ipynb
 
-SVM
+2. SVM
+SVM.ipynb
 
-Naive Bayes
+3. Naive Bayes + BOW
+NB.ipynb
 
 Topic Modelling
 ----------------
 
-LDA
 
+1. LDA using TFIDF vectorizer
+LDA_body_type.ipynb
 
 Recommender systems
 -------------------
+Buidling User profiles by combining Country of origin and trip type data fields.
+Used cosine similarity based on the ratings for all attractions by profile to establish similarity.
+Building Recommendation system on top of the above knowledge using Nearest neighbour algorithm.
+
+1. Cosine similarity + Nearest Neighbour Algorithm
+TA Rec system.ipynb
 
